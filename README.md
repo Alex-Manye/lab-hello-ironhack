@@ -37,12 +37,16 @@ Let's start with the basics: as you can see `public` folder is already there and
 
 Our project needs to have two important packages that are necessary for compiling: `Babel` and `Webpack`.
 
-But don't worry, we took care of it. As well as of `webpack.config.js` file. :heavy_check_mark:
+But don't worry, create-react-app will take care of it.
 
 
 ### Iteration 2 - React Creation
 
-You are ready to start creating your React app. First, add the packages you need (**react@16.3.2 react-dom@16.3.2**). And then create an `index.js` file (refer to the lesson to see where this file suppose to be).
+  ```
+  npx create-react-app my-first-react-app
+  cd to my-first-react-app
+  npm start
+  ```
 
 ## Iteration 3 - First Landing Page
 
